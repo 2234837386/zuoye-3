@@ -1,0 +1,35 @@
+{
+  "pages":[
+       "pages/stare/stare",
+       "pages/year/year",
+       "pages/day/day"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#00f",
+    "navigationBarTitleText": "作业时间选择器",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "text": "首页",
+        "iconPath": "/assets/edit.png",
+        "selectedIconPath": "/assets/edit_curr.png",
+        "pagePath": "pages/stare/stare"
+      },
+      {
+        "text": "年月日",
+        "iconPath": "/assets/list.png",
+        "selectedIconPath": "/assets/list_curr.png",
+        "pagePath": "pages/year/year"
+      },
+      {
+        "text": "日子",
+        "iconPath": "/assets/list.png",
+        "selectedIconPath": "/assets/my_curr.png",
+        "pagePath": "pages/day/day"
+      }
+    ]
+  }
+}
